@@ -15,3 +15,10 @@ jobs:
          run: |
           echo "hello1"
           echo "hello2"
+  sleep:
+    runs-on:  ubuntu-latest
+    steps:
+       - name: sleep
+         run: sleep 20
+
+      
